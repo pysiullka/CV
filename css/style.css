@@ -1,6 +1,6 @@
 body {
   background-color: #f5f7fa;
-  padding: 40px;
+  padding: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 .right-side {
   width: 830px;
   padding-left: 80px;
-  padding-right: 200px;
+  padding-right: 40px;
   padding-top: 68px;
   padding-bottom: 68px;
 }
@@ -48,6 +48,7 @@ body {
 .bio-about {
   font-size: 14px;
   line-height: 1.714;
+  text-align: justify;
 }
 
 .bio-about {
@@ -99,15 +100,15 @@ body {
 }
 
 .accent {
-  color: #183CDF;
+  color: #3380d8;
 }
 
 /* ========= left-side ========= */
 
 .left-side {
   width: 370px;
-  background-color: #1F98D1;
-  color: #fff;
+  background-color: #d7dde3;
+  color: #222;
 }
 
 .skills-title {
@@ -116,7 +117,7 @@ body {
 }
 
 .skills-item {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.714;
 }
 
@@ -128,7 +129,7 @@ body {
 .skills-item::before {
   content: "\2022";
   margin-right: 8px;
-  color: #183CDF;
+  color: #345470;
   font-size: 18px;
 }
 
@@ -151,7 +152,7 @@ body {
 
 .contacts-title,
 .skills-title {
-  color: #ffffff;
+  color: #222;
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 700;
@@ -164,15 +165,15 @@ body {
 }
 
 .contacts-item {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  color: #ffffff;
+  color: #222 ;
 }
 
 .contacts-link {
   opacity: 0.6;
-  color: #ffffff;
+  color: #222;
   text-decoration: none;
 }
 
@@ -182,8 +183,8 @@ body {
 }
 
 .widget-link {
-  color: #fff;
-  background-color: #183CDF;
+  color: #222;
+  background-color: #5184B0;
   padding-top: 20px;
   padding-right: 43px;
   padding-bottom: 20px;
@@ -205,4 +206,15 @@ body {
 
 .photo:hover {
   animation: pulse 1s;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
 }
